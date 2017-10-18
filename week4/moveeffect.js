@@ -1,5 +1,7 @@
-   var id = function(el) {          return document.getElementById(el);        },
-       c = id('photo-list');
+   var id = function(el) {          
+   return document.getElementById(el);     
+   }
+   c = id('photo-list');
    if(c) {
        var ul = id('scroll'),
            lis = ul.getElementsByTagName('li'),
