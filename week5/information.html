@@ -3,20 +3,44 @@
 <title>information</title>
 <style type="text/css"> 
 .change{ 
-width:100%; 
+width:99%; 
 height:100%; 
 background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#b8c4cb), to(#f6f6f8));
 } 
 </style> 
 
+<script>
+function changeImage()
+{
+element=document.getElementById('myimage')
+if (element.src.match("mine1"))
+  {
+  element.src="mine2.jpg";
+  }
+else
+  {
+  element.src="mine1.jpg";
+  }
+}
 
+</script>
 </head>
-<body>
-<div class="change"></div> 
+<body class="change">
+<table bordercolor="#000000" border="0">
+<tr>
+<td width="40%">
+<img id="myimage" onClick="changeImage()" src="mine1.jpg">
+<p><center>Click the photo!</center></p>
 
 
+</td>
 
-
-
+<td width="60%">
+<ul>
+<li>Name:Ariel</li>
+<li>Age:19</li>
+</ul>
+</td>
+</tr>
 </body>
 </html>
