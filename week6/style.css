@@ -1,0 +1,9 @@
+/* CSS Document */
+h1{ color:#006699;
+	font-size:50px;}
+	
+.change{ 
+width:99%; 
+height:100%; 
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#b8c4cb), to(#f6f6f8));
+} 
