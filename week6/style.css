@@ -1,9 +1,46 @@
 /* CSS Document */
-h1{ color:#006699;
-	font-size:50px;}
-	
-.change{ 
-width:99%; 
-height:100%; 
-background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#b8c4cb), to(#f6f6f8));
-} 
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none; background:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+
+.comWidth{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.leftArea{float:left;}
+.rightArea{float:right;}
+
+/*top*/
+.top{
+	height: 30px;
+	line-height: 30px;
+	background-color: aliceblue;
+}
+.collection{
+	background: url(../week6/collection.jpg) left center no-repeat;
+	padding-left:17px;
+}
+/*logo*/
+.logo{
+	height:200px;
+	background-color: #FFF;
+}
+.logo h1{
+	margin-left: 100px;
+}
+/*itemClass*/
+.itemClass{
+	height:30px;
+	background-color: cornflowerblue;
+}
