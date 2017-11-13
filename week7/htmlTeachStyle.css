@@ -59,7 +59,7 @@ a{
     background-color: aliceblue;
 }
 .collection{
-    background: url(../collection.jpg) left center no-repeat;
+    background: url(../week7/collection.jpg) left center no-repeat;
     padding-left:17px;
 }
 /*logo*/
@@ -77,4 +77,14 @@ a{
 .logo_text{
     padding-top: 70px;
     font-size: 25px;
+}
+/*itemClass*/
+.itemClass{
+    height:30px;
+    background-color: cornflowerblue;
+}
+
+.itemClass2{
+    height:30px;
+    background-color: cadetblue;
 }
