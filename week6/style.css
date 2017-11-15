@@ -84,22 +84,33 @@ a{
 	background-color: cornflowerblue;
 }
 /*mainPart*/
-.main_text a{
-	display: block;
-	padding-top: 50px;
+.main_text{
+	padding-bottom: 100px;
+}
+.left_text{
+	float: left;
+	width: auto;
 	font-size: 30px;
 	font-weight: bold;
-	padding-left: 100px;
 	color: cornflowerblue;
+	padding:50px 50px;
+	border-right: #818181 solid 2px;
 }
-.main_text p{
+.left_text a{
+	line-height: 80px;
+}
+.right_text{
+	float: right;
+	width:auto;
+	padding-right: 180px;
 	font-size: 50px;
 	font-weight: bold;
-	padding-left: 450px;
-	line-height:100px;
+	padding-top: 100px;
 }
+
 /*endingPart*/
 .endingPart{
+	margin-top: 300px;
 	width:auto;
 	height:170px;
 	background-color: cadetblue;
