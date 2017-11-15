@@ -83,18 +83,28 @@ a{
 	height:30px;
 	background-color: cornflowerblue;
 }
-/*table*/
-.table_style{
-	width: 100%;
-}
-.left{
-	width:20%;
-	font-size: 20px;
-	padding-left: 90px;
-}
-.right{
-	width:80%;
+/*mainPart*/
+.main_text a{
+	display: block;
+	padding-top: 50px;
 	font-size: 30px;
-    padding-left: 300px;
-	padding-top: 60px;
+	font-weight: bold;
+	padding-left: 100px;
+	color: cornflowerblue;
+}
+.main_text p{
+	font-size: 50px;
+	font-weight: bold;
+	padding-left: 450px;
+	line-height:100px;
+}
+/*endingPart*/
+.endingPart{
+	width:auto;
+	height:170px;
+	background-color: cadetblue;
+}
+.endingPart p{
+	padding-left: 450px;
+	padding-top: 30px;
 }

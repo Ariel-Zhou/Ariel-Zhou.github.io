@@ -81,26 +81,6 @@ a{
     height:30px;
     background-color: cornflowerblue;
 }
-/*below*/
-.itemClass2{
-    height:30px;
-    background-color: cadetblue;
-}
-.content{
-    padding-left: 165px;
-}
-.pro_style{
-    color: darkslategrey;
-    font-size: 20px;
-    font-weight: bold;
-}
-.proPic_style{
-    height:300px;
-    width: 600px;
-}
-.tips{
-    font-size: 14px;
-}
 
 /*endingPart*/
 .endingPart{
@@ -112,4 +92,3 @@ a{
     padding-left: 450px;
     padding-top: 30px;
 }
-
