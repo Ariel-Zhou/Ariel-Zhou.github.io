@@ -77,13 +77,24 @@ a{
 }
 
 /*endingPart*/
-.endingPart{
-    margin-top: 95px;
+.endingPart_enter{
+    margin-top: 170px;
     width:auto;
     height:170px;
     background-color: cadetblue;
 }
-.endingPart p{
+.endingPart_enter p{
+    padding-left: 450px;
+    padding-top: 30px;
+}
+
+.endingPart_register{
+    margin-top: 90px;
+    width:auto;
+    height:170px;
+    background-color: cadetblue;
+}
+.endingPart_register p{
     padding-left: 450px;
     padding-top: 30px;
 }
