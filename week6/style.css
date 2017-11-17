@@ -1,57 +1,3 @@
-/* CSS Document */
-body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
-	margin:0;
-	padding:0;
-}
-img{
-	border:none;
-}
-li{
-	list-style:none;
-}
-input,select,textarea{
-	outline:none;
-	border:none;
-	background:none;
-}
-textarea{
-	resize:none;
-}
-a{
-	text-decoration:none;
-}
-
-/*清浮动*/
-.clearfix:after{
-	content:"";
-	display:block;
-	clear:both;
-}
-.clearfix{
-	zoom:1;
-}
-.fl{
-	float:left;
-}
-.fr{
-	float:right;
-}
-
-
-.comWidth{
-	width:1000px;
-	margin-left:auto;
-	margin-right:auto;
-}
-.leftArea{
-	float:left;
-}
-.rightArea{
-	float:right;
-}
-
-
-
 /*top*/
 .top{
 	height: 30px;
@@ -105,12 +51,12 @@ a{
 	padding-right: 180px;
 	font-size: 50px;
 	font-weight: bold;
-	padding-top: 100px;
+	padding-top: 80px;
 }
 
 /*endingPart*/
 .endingPart{
-	margin-top: 300px;
+	margin-top: 240px;
 	width:auto;
 	height:170px;
 	background-color: cadetblue;
