@@ -68,6 +68,13 @@ a{
     padding-left: 300px;
     line-height: 40px;
 }
+.enter_text{
+    padding: 50px 400px;
+}
+.enter_content{
+    padding-left: 300px;
+    line-height: 40px;
+}
 .text_box{
     border: solid 1px gray;
     padding:5px 6px;
@@ -78,7 +85,7 @@ a{
 
 /*endingPart*/
 .endingPart_enter{
-    margin-top: 170px;
+    margin-top: 210px;
     width:auto;
     height:170px;
     background-color: cadetblue;
