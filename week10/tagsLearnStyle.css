@@ -1,0 +1,80 @@
+/*top*/
+.top{
+    height: 30px;
+    line-height: 30px;
+    background-color: aliceblue;
+}
+.collection{
+    background: url(../week7/collection.jpg) left center no-repeat;
+    padding-left:17px;
+}
+/*logo*/
+.logo{
+    height:200px;
+    background-color: #FFF;
+}
+.logo h1{
+    margin-left: 100px;
+}
+.logopic{
+    padding-left: auto;
+    padding-top: 10px;
+}
+.logo_text{
+    padding-top: 70px;
+    font-size: 25px;
+}
+/*itemClass*/
+.itemClass{
+    height:30px;
+    background-color: cornflowerblue;
+}
+
+/*mainPart*/
+.basicTags h1{
+    text-align: center;
+    padding-top: 30px;
+    color: midnightblue;
+}
+.example{
+    float: left;
+    width:50%;
+    height: 100%;
+    padding-top:30px;
+}
+.explain{
+    float: right;
+    width:50%;
+    height: 100%;
+    padding-top:30px;
+
+}
+.explain span{
+    color: green;
+    font-weight: bold;
+}
+
+.moreTagx h4{
+    color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*endingPart*/
+.endingPart{
+    width:auto;
+    height:170px;
+    background-color: cadetblue;
+}
+.endingPart p{
+    padding-left: 450px;
+    padding-top: 30px;
+}

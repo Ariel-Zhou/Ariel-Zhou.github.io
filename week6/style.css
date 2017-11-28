@@ -33,12 +33,19 @@
 	font-size: 23px;
 }
 .menu_text{
-	margin-left: 50px;
-	margin-right: 120px;
+	text-align: center;
+
+}
+.html{
+	display: inline-block;
+}
+.css{
+	display: inline-block;
 }
 .menu_html{
-	height:50px;
-	weight:50px;
+	height:80px;
+	width:150px;
+	background-color: blueviolet;
 }
 
 /*mainPart*/
