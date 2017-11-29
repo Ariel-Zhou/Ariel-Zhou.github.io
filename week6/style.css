@@ -69,7 +69,10 @@
 	height:170px;
 	background-color: cadetblue;
 }
+.endContent{
+	padding-top: 4%;
+	padding-left: 30%;
+}
 .endingPart p{
-	padding-left: 450px;
-	padding-top: 30px;
+	line-height: 33px;
 }
