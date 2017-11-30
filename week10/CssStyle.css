@@ -1,0 +1,54 @@
+/*top*/
+.top{
+    height: 30px;
+    line-height: 30px;
+    background-color: aliceblue;
+}
+.collection{
+    background: url(../week7/collection.jpg) left center no-repeat;
+    padding-left:17px;
+}
+/*logo*/
+.logo{
+    height:200px;
+    background-color: #FFF;
+}
+.logo h1{
+    margin-left: 100px;
+}
+.logopic{
+    padding-left: auto;
+    padding-top: 10px;
+}
+.logo_text{
+    padding-top: 70px;
+    font-size: 25px;
+}
+/*itemClass*/
+.itemClass{
+    height:30px;
+    background-color: cornflowerblue;
+}
+
+/*mainPart*/
+.mainPart span{
+    color: darkcyan;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/*endingPart*/
+.endingPart{
+    width:auto;
+    height:170px;
+    background-color: cadetblue;
+}
+.endingPart p{
+    padding-left: 450px;
+    padding-top: 30px;
+}
