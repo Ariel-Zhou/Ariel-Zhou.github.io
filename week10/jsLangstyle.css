@@ -1,0 +1,56 @@
+/*top*/
+.top{
+    height: 30px;
+    line-height: 30px;
+    background-color: aliceblue;
+}
+.collection{
+    background: url(collection.jpg) left center no-repeat;
+    padding-left:17px;
+}
+/*logo*/
+.logo{
+    height:200px;
+    background-color: #FFF;
+}
+.logopic{
+    padding-left: auto;
+    padding-top: 10px;
+}
+.logo_text{
+    padding-top:70px;
+    padding-left:50px;
+    font-size: 25px;
+}
+/*itemClass*/
+.itemClass{
+    height:30px;
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+
+/*endingPart*/
+.endingPart{
+    bottom:0;
+    width:100%;
+    height:170px;
+    background-color: cadetblue;
+    float: left;
+}
+
+.endContent{
+    padding-top: 4%;
+    padding-left: 30%;
+}
+
+.endingPart p{
+    line-height: 33px;
+}
