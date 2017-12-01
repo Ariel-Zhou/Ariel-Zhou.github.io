@@ -32,24 +32,20 @@
 }
 
 /*endingPart*/
-.endingPart_enter{
-    margin-top: 210px;
-    width:auto;
+.endingPart{
+    width:100%;
+    position:absolute;
+    bottom:0;
     height:170px;
     background-color: cadetblue;
 }
-.endingPart_enter p{
+.endContent{
+    padding-top: 4%;
+    padding-left: 30%;
+}
+
+.endingPart p{
     padding-left: 450px;
     padding-top: 30px;
 }
 
-.endingPart_register{
-    margin-top: 90px;
-    width:auto;
-    height:170px;
-    background-color: cadetblue;
-}
-.endingPart_register p{
-    padding-left: 450px;
-    padding-top: 30px;
-}

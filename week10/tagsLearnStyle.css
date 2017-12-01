@@ -78,9 +78,15 @@
 
 /*endingPart*/
 .endingPart{
-    width:auto;
+    width:100%;
+    position:absolute;
+    bottom:0;
     height:170px;
     background-color: cadetblue;
+}
+.endContent{
+    padding-top: 4%;
+    padding-left: 30%;
 }
 .endingPart p{
     padding-left: 450px;

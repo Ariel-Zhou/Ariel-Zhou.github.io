@@ -64,8 +64,9 @@
 
 /*endingPart*/
 .endingPart{
-	margin-top: 240px;
-	width:auto;
+	width:100%;
+	position:absolute;
+	bottom:0;
 	height:170px;
 	background-color: cadetblue;
 }
