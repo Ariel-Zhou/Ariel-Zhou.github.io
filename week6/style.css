@@ -64,16 +64,18 @@
 
 /*endingPart*/
 .endingPart{
+    bottom:0;
 	width:100%;
-	position:absolute;
-	bottom:0;
 	height:170px;
 	background-color: cadetblue;
+	float: left;
 }
+
 .endContent{
 	padding-top: 4%;
 	padding-left: 30%;
 }
+
 .endingPart p{
 	line-height: 33px;
 }
