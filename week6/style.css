@@ -15,11 +15,10 @@
 }
 .logopic{
 	 padding-left: auto;
-	 padding-top: 10px;
  }
 .logo_text{
-	padding-top:70px;
-	padding-left:50px;
+	padding-top:8%;
+	padding-left:5%;
 	font-size: 25px;
 }
 /*itemClass*/
@@ -42,16 +41,8 @@
 .css{
 	display: inline-block;
 }
-.menu_html{
-	height:80px;
-	width:150px;
-	background-color: blueviolet;
-}
 
 /*mainPart*/
-.main_text{
-	padding-bottom: 100px;
-}
 .slogan{
 	float: left;
 	width:auto;
