@@ -28,6 +28,7 @@
 }
 /*menu*/
 .menu{
+	display: inline-block;
 	text-align: left;
 	font-size: 23px;
 }
@@ -35,11 +36,12 @@
 	text-align: center;
     padding-left: 15%;
 }
-.html{
-	display: inline-block;
+.menuContent{
+	background-color: darkcyan;
 }
-.css{
-	display: inline-block;
+.menuContent a{
+	color:#fff;
+	font-weight: 30px;
 }
 
 /*mainPart*/
