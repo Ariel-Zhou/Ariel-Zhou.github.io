@@ -28,6 +28,24 @@
     background-color: cornflowerblue;
 }
 
+/*mainPart*/
+.tableStyle{
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+.tableStyle td{
+    border: 2px lightsteelblue solid;
+}
+.tableStyle h1{
+    text-align: center;
+}
+.tableStyle h2{
+    text-align: center;
+}
+.tableStyle span{
+    color: mediumpurple;
+    font-weight: bold;
+}
 
 
 

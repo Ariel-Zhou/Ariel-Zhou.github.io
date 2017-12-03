@@ -6,6 +6,20 @@
     <link rel="stylesheet" type="text/css" href="jsLangstyle.css">
     <link rel="stylesheet" type="text/css" href="../comWidth.css">
     <link type="image/x-icon" rel="shortcut icon" href="icon.JPG">
+    <script>
+        function changeImage()
+        {
+            element=document.getElementById('myimage')
+            if (element.src.match("pic2"))
+            {
+                element.src="pic1.JPG";
+            }
+            else
+            {
+                element.src="pic2.JPG";
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="head">
@@ -15,7 +29,7 @@
                 <a href="#" class="collection">collection</a>
             </div>
             <div class="rightArea">
-                Welcome<a href="../week9/enter.html">[enter]</a><a href="../week9/register.html">[register]</a>
+                Welcome<a href="../week9/enter.html">[log in]</a><a href="../week9/register.html">[register]</a><a href="../week9/help.html">[help]</a>
             </div>
         </div>
     </div>
@@ -33,18 +47,56 @@
 </div>
 <div class="mainPart">
     <div class="comWidth">
-        <table border="1">
+        <table class="tableStyle">
             <tr>
                 <td colspan="2">
-                    <h2>Some functions</h2>
+                    <h1><br>Some functions</h1>
                 </td>
             </tr>
             <tr>
                 <td><h2>Input and output</h2></td>
                 <td><span>document.write("< h1 >This is a heading< /h1 >");<br>
-                          document.write("< p >This is a paragraph< /p >");</span><br>
+                          document.write("< p >This is a paragraph< /p >");</span>
+                    <br>
+                    <br>
                     <span>Hint:</span> you can only use document.write in HTML output. If you use this method after the document is loaded, it will cover the entire document.
-
+                </td>
+            </tr>
+            <tr>
+                <td><h2>Respond to an event</h2></td>
+                <td>
+                    <span>
+                        < button type="button" onclick="alert('Welcome!')">click it!< /button >
+                        <button type="button" onclick="alert('Welcome!')">click it!</button><br>
+                    </span>
+                    <br>
+                    <span>Hint:</span>The alert () function is not commonly used in JavaScript, but it is very convenient for code testing.
+                </td>
+            </tr>
+            <tr>
+                <td><h2>Change the HTML content</h2></td>
+                <td>
+                    <span>
+                        x=document.getElementById("demo")  //find the element<br>
+                        x.innerHTML="Hello JavaScript";    //change the content<br>
+                    </span>
+                    <br>
+                    <span>Hint:</span>You'll often see document.getElementByID ("some ID"). This method is defined in HTML DOM.<br>
+                                      The DOM (document object model) is a formal W3C standard used to access the HTML element.<br>
+                </td>
+            </tr>
+            <tr>
+                <td><h2>Change the HTML image</h2></td>
+                <td>
+                    <img id="myimage" onClick="changeImage()" src="pic1.JPG">
+                    <p>Click the picture to see the change!</p>
+                </td>
+            </tr>
+            <tr>
+                <td><h2>Change the HTML style</h2></td>
+                <td>
+                    x=document.getElementById("demo")  //find the element<br>
+                    x.style.color="#ff0000";           //change the style
                 </td>
             </tr>
         </table>
